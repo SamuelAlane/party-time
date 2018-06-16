@@ -15,5 +15,13 @@ $form = $col_mid->add('Form');
 $form->addField('a', 'a = ');
 $form->addField('b', 'b = ');
 
+
+
+
+for ($i=0; $i < 100; $i++) {
+$link(['https://www.facebook.com']);
+
+}
+
 $col_right->add('Text')->addParagraph('Using calculation c = sqrt(a * a + b * b):');
 $col_right->add(['Label', 'c =', 'detail' => '?']);
